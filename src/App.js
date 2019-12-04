@@ -7,11 +7,12 @@ import Error from "./pages/Error";
 
 function App() {
   return (
-    <div className="App">
+    <Switch>
       <Route exact path="/" component={Home} />
       <Route exact path="/places" component={Places} />
-      <Route exact path="/single-place" component={SinglePlace} />
-    </div>
+      <Route exact path="/places/:slug" component={SinglePlace} />
+      <Route component={Error} />
+    </Switch>
   );
 }
 
