@@ -4,9 +4,11 @@ import Banner from "../components/Banner";
 import { Link } from "react-router-dom";
 import "../App.css";
 
+import Services from "../components/Services";
+
 const Home = () => {
   return (
-    <>
+    <React.Fragment>
       <Hero>
         <Banner
           title="Jardin de l'amour"
@@ -17,7 +19,8 @@ const Home = () => {
           </Link>
         </Banner>
       </Hero>
-    </>
+      <Services />
+    </React.Fragment>
   );
 };
 
