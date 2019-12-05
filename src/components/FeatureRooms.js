@@ -1,13 +1,12 @@
 import React, { Component } from "react";
-import { RoomContext } from "../Context";
+import { RoomContext } from "../context";
 
-class FeatureRooms extends Component {
+export default class FeaturedRooms extends Component {
   static contextType = RoomContext;
   render() {
     const value = this.context;
     console.log(value);
-    return <div> HI, This is FeatureRooms {value}</div>;
+
+    return <div>everyone</div>;
   }
 }
-
-export default FeatureRooms;

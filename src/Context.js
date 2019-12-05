@@ -2,17 +2,16 @@ import React, { Component } from "react";
 
 const RoomContext = React.createContext();
 
-export default class RoomProvider extends Component {
+class RoomProvider extends Component {
   state = {
-    greeting: "Hello ",
-    name: "mae"
+    greeting: "Hi",
+    name: "Mae"
   };
   render() {
     return (
       <RoomContext.Provider value={{ ...this.state }}>
         {" "}
         {this.props.children}
-        llll
       </RoomContext.Provider>
     );
   }
