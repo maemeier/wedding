@@ -9,10 +9,10 @@ const Home = () => {
     <>
       <Hero>
         <Banner
-          title="Le Grand Catheral"
-          subtitle="Luxurious place with Amazing Garden for your special day"
+          title="Jardin de l'amour"
+          subtitle="Find perfect place for your special day"
         >
-          <Link to="/rooms" className="btn-primary">
+          <Link to="/places" className="btn-primary">
             our places
           </Link>
         </Banner>
