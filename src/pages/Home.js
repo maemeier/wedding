@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import "../App.css";
 
 import Services from "../components/Services";
+import FeatureRooms from "../components/FeatureRooms";
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
         </Banner>
       </Hero>
       <Services />
+      <FeatureRooms />
     </React.Fragment>
   );
 };
