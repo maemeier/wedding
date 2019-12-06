@@ -29,7 +29,7 @@ class Services extends Component {
   render() {
     return (
       <section className="services">
-        <Titel title="services" />
+        <Titel title="Exclusive services" />
         <div className="services-center">
           {this.state.services.map(item => {
             return (
