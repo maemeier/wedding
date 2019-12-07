@@ -49,6 +49,20 @@ const FlowerFilter = ({ rooms }) => {
             {types}
           </select>
         </div>
+        {/* price*/}
+        <div className="form-group">
+          <lable htmlFor="price">Bouquet price CHF {price}</lable>
+          <input
+            type="range"
+            name="price"
+            minPrice={minPrice}
+            maxPrice={maxPrice}
+            id="price"
+            value={price}
+            onChange={handleChange}
+            className="form-control"
+          />
+        </div>
       </form>
     </section>
   );
