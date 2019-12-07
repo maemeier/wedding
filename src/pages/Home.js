@@ -6,6 +6,7 @@ import "../App.css";
 
 import Services from "../components/Services";
 import FeatureRooms from "../components/FeatureRooms";
+import Button from "../components/StyledHero";
 
 const Home = () => {
   return (

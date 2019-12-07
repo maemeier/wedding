@@ -2,6 +2,7 @@ import React from "react";
 import defaultBcg from "../images/room-1.jpeg";
 import Hero from "../components/Hero";
 import Banner from "../components/Banner";
+import StyledHero from "../components/StyledHero";
 
 import { RoomContext } from "../context";
 import { Link } from "react-router-dom";
@@ -48,13 +49,13 @@ class SinglePlace extends React.Component {
     } = room;
     return (
       <>
-        <Hero>
+        <StyledHero img={images[0]}>
           <Banner title={`${name} `}>
             <Link to="/rooms" className="btn-primary">
               back
             </Link>
           </Banner>
-        </Hero>
+        </StyledHero>
       </>
     );
   }
