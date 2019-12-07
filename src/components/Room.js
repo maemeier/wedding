@@ -4,7 +4,6 @@ import defaultImg from "../images/room-1.jpeg";
 import PropTypes from "prop-types";
 
 const Room = ({ room }) => {
-  console.table(room);
   const { name, slug, images, price } = room;
   return (
     <article className="room">
