@@ -705,10 +705,10 @@ export default [
       id: "13"
     },
     fields: {
-      name: "presidential",
+      name: "Amazing Julia Rose",
       slug: "presidential-room",
       type: "presidential",
-      price: 600,
+      price: 1600,
       size: 1000,
       capacity: 10,
       pets: true,

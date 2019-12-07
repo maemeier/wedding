@@ -49,9 +49,9 @@ class SinglePlace extends React.Component {
     return (
       <>
         <Hero>
-          <Banner title={`${name} room`}>
+          <Banner title={`${name} `}>
             <Link to="/rooms" className="btn-primary">
-              back to rooms
+              back
             </Link>
           </Banner>
         </Hero>
