@@ -12,7 +12,6 @@ const FlowerContainer = ({ context }) => {
   }
   return (
     <div>
-      FlowerContainer
       <FlowerFilter rooms={rooms} />
       <FlowerList rooms={sortedRooms} />
     </div>
