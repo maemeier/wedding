@@ -64,7 +64,6 @@ class SinglePlace extends React.Component {
           <article className="info">
             <h6>price: CHF {price}</h6>
             <h6>devilery: {size} days</h6>
-            <h6>{pets ? "pets allowed" : "pets not allowed"}</h6>
           </article>
           <section className="room-extras">
             <ul className="extras">

@@ -39,6 +39,7 @@ class RoomProvider extends Component {
     const room = tempRooms.find(room => room.slug === slug);
     return room;
   };
+
   render() {
     return (
       <RoomContext.Provider value={{ ...this.state, getRoom: this.getRoom }}>
@@ -50,5 +51,15 @@ class RoomProvider extends Component {
 }
 
 const RoomConsumer = RoomContext.Consumer;
+
+export function withRoomConsumber(Component) {
+  return function ComsumerWrapper(props) {
+    return (
+      <RoomConsumer>
+        {value => <Component {...props} context={value} />}
+      </RoomConsumer>
+    );
+  };
+}
 
 export { RoomProvider, RoomConsumer, RoomContext };
