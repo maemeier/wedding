@@ -27,7 +27,11 @@ const Order = () => {
             flawlessly executed wedding, with expert assistance on-hand
           </p>
 
-          <button className="packageButton"> Packages</button>
+          <Link to="/">
+            <button renderAs="button" className="packageButton">
+              <span>Packages</span>
+            </button>
+          </Link>
         </div>
       </div>
     </>

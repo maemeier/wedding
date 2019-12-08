@@ -10,7 +10,7 @@ const Places = () => {
     <>
       <div>
         <Hero hero="roomsHero">
-          <Banner title="Select the flowers you love">
+          <Banner title="Bouquet for you">
             <Link to="/" className="btn-primary">
               back to Home
             </Link>

@@ -1,4 +1,4 @@
-* {
+roomsHero* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -190,6 +190,18 @@ h6 {
   background-image: url("./images/hotel1.jpg");
   min-height: 60vh;
 }
+.roomsHero1 {
+  min-height: calc(100vh - 66px);
+  background: url("./images/defaultBcg.jpeg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.roomsHero1 {
+  background-image: url("./images/hotel2.jpg");
+  min-height: 60vh;
+}
+
 /* End of Hero */
 /* Banner */
 .banner {
