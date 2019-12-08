@@ -1,28 +1,31 @@
 import React from "react";
 import Hero from "../components/Hero";
 import Banner from "../components/Banner";
+import Order from "../components/Order";
+import Footer from "../components/Footer";
+
 import { Link } from "react-router-dom";
 import "../App.css";
 
 import Services from "../components/Services";
 import FeatureRooms from "../components/FeatureRooms";
 import Button from "../components/StyledHero";
+import Allrooms from "../components/Allrooms";
 
 const Home = () => {
   return (
     <React.Fragment>
       <Hero>
-        <Banner
-          title="Jardin de l'amour"
-          subtitle="Find perfect place for your special day"
-        >
+        <Banner title="Jardin de l'amour" subtitle="Make your wedding unique">
           <Link to="/places" className="btn-primary">
-            our places
+            our flowers
           </Link>
         </Banner>
       </Hero>
       <Services />
       <FeatureRooms />
+
+      <Footer />
     </React.Fragment>
   );
 };

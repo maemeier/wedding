@@ -60,6 +60,19 @@ h6 {
   margin-bottom: 1.5em;
 }
 
+.box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 50px;
+}
+.bride {
+  height: 100px;
+  margin-left: 17%;
+}
+.questionText {
+  margin-right: 30%;
+  margin-top: 10px;
+}
 .btn-primary {
   display: inline-block;
   text-decoration: none;
@@ -198,6 +211,17 @@ h6 {
 .banner p {
   font-size: 1.2rem;
   margin-bottom: 2rem;
+}
+.footer {
+  font-size: 1rem;
+  height: 80px;
+
+  text-align: center;
+  background-color: var(--mainBlack);
+  color: white;
+}
+.footer p {
+  padding-top: 20px;
 }
 @media screen and (min-width: 576px) {
   .banner {
@@ -338,7 +362,7 @@ h6 {
 }
 .price-top h6 {
   margin-bottom: 0;
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 300;
   letter-spacing: var(--mainSpacing);
 }

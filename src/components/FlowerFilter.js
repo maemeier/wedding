@@ -34,7 +34,7 @@ const FlowerFilter = ({ rooms }) => {
     );
   });
   return (
-    <section className="filter-container">
+    <section className="filter-container ">
       <Title title="search bouquets" />
       <form className="filter-form">
         <div className="form-group">
@@ -45,18 +45,19 @@ const FlowerFilter = ({ rooms }) => {
             value={type}
             className="form-control"
             onChange={handleChange}
+            value={type}
           >
             {types}
           </select>
         </div>
         {/* price*/}
         <div className="form-group">
-          <lable htmlFor="price">Bouquet price CHF {price}</lable>
+          <label htmlFor="price">flower price CHF{price}</label>
           <input
             type="range"
             name="price"
-            minPrice={minPrice}
-            maxPrice={maxPrice}
+            min={minPrice}
+            max={maxPrice}
             id="price"
             value={price}
             onChange={handleChange}

@@ -9,9 +9,9 @@ const Places = () => {
     <>
       <div>
         <Hero hero="roomsHero">
-          <Banner title="Select the place you love">
+          <Banner title="Select the flowers you love">
             <Link to="/" className="btn-primary">
-              Home
+              back to Home
             </Link>
           </Banner>
         </Hero>

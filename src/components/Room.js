@@ -6,18 +6,20 @@ import PropTypes from "prop-types";
 const Room = ({ room }) => {
   const { name, slug, images, price } = room;
   return (
-    <article className="room">
-      <div className="img-container">
-        <img src={images[0] || defaultImg} alt="single room" />
-        <div className="price-top">
-          <h6>CHF {price}</h6>
-          <p> per day</p>
+    <>
+      <article className="room">
+        <div className="img-container">
+          <img src={images[0] || defaultImg} alt="single room" />
+          <div className="price-top">
+            <h6>CHF {price}</h6>
+            <p> per bouquet</p>
+          </div>
+          <Link to={`/places/${slug}`} className="btn-primary room-link">
+            Features
+          </Link>
         </div>
-        <Link to={`/places/${slug}`} className="btn-primary room-link">
-          Features
-        </Link>
-      </div>
-    </article>
+      </article>
+    </>
   );
 };
 

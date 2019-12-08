@@ -62,17 +62,30 @@ class SinglePlace extends React.Component {
             <p>{description}</p>
           </article>
           <article className="info">
-            <h6>price: CHF {price}</h6>
-            <h6>devilery: {size} days</h6>
+            <h3>info</h3>
+            <h6>
+              <strong>price</strong> : CHF{price}
+            </h6>
+
+            <h6>
+              {" "}
+              <strong>Delivery</strong> :
+              {pets ? "pick up avaliable" : "2 days delivery"}
+            </h6>
+            <h6>
+              <strong>Custom</strong> :{breakfast && "custom possible"}
+            </h6>
           </article>
-          <section className="room-extras">
-            <ul className="extras">
-              {extras.map((item, index) => {
-                return <li key={index}> - {item} </li>;
-              })}
-            </ul>
-          </section>
         </div>
+
+        <section className="room-extras">
+          <h6>extras </h6>
+          <ul className="extras">
+            {extras.map((item, index) => (
+              <li key={index}> - {item}</li>
+            ))}
+          </ul>
+        </section>
       </>
     );
   }

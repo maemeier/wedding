@@ -1,28 +1,31 @@
 import React, { Component } from "react";
 import { FaCocktail, FaMitten } from "react-icons/fa";
+import { GiFlowerPot } from "react-icons/gi";
+import { GiFlowers } from "react-icons/gi";
 import { MdRoomService } from "react-icons/md";
+import { MdStore } from "react-icons/md";
 import Titel from "./Title";
 
 class Services extends Component {
   state = {
     services: [
       {
-        icon: <FaCocktail />,
-        title: "Signature Cocktail",
+        icon: <MdStore />,
+        title: "DREAM CUSTOM BOUQUET",
         info:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+          "You send us a photo of a floral piece you love or visit us in store, we will create a custom quote within 1 day, and of course free of charge."
       },
       {
-        icon: <FaMitten />,
-        title: "Signature Cocktail",
+        icon: <GiFlowerPot />,
+        title: "FARM FLOWERS",
         info:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+          "We receive fresh-cut flowers directly from our growers in order to design the best quality arrangements for your Big Day! "
       },
       {
-        icon: <MdRoomService />,
-        title: "Flower Bouquet",
+        icon: <GiFlowers />,
+        title: "WEDDING DECORATIONS",
         info:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+          "Choose from: Table garland, Gazebo flowers, wedding arch flowers, venue floral decor, bouquets, centerpieces and so much more!"
       }
     ]
   };
