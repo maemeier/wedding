@@ -21,25 +21,24 @@ export default [
       id: "1"
     },
     fields: {
-      name: "single economy",
+      name: "luxury Royal orchid ",
       slug: "single-economy",
       type: "single",
-      price: 100,
+      price: 450,
       size: 200,
       capacity: 1,
       pets: false,
       breakfast: false,
       featured: false,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "A simple beauty of elegance in these white centerpieces. Three hydrangea centerpieces per box. The centerpiece has 5 hydrangeas, 4 ruscus, and 5 lily grass, royal orchid . In all wedding/or special occasion flowers we recommend your delivery date to be two or three days before your event and to order at least 10 days before the delivery date. ",
       extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
-        "Adequate safety/security",
-        "Internet",
-        "Comfortable beds"
+        "3 Hydrangea Wedding Centerpieces",
+        "3 Centerpieces 12 Total Stems",
+        "Time to Bloom: 13 - 48 Hours",
+        "Assembled & Picked by Hand",
+        "Vase Life: 5 - 8 Days",
+        "Color: White, oldrose, light pink"
       ],
       images: [
         {
@@ -78,25 +77,23 @@ export default [
       id: "2"
     },
     fields: {
-      name: "single basic",
+      name: "Fairy autumn",
       slug: "single-basic",
       type: "single",
-      price: 150,
+      price: 750,
       size: 250,
       capacity: 1,
       pets: false,
       breakfast: false,
       featured: false,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        " The Round or Hand Tied bouquet works well with all wedding types and dress styles, the flowers and colors selected will influence the formality of the bouquet and you can choose from either the same type flower to an assortment of sizes and varieties. Hand Tied bouquets can include a wide assortment of flowers and greenery, and are secured by using a satin ribbon.Global Rose has a complete variety of flowers and greenery you can choose from to create your dream bridal bouque",
       extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
+        "Color: Your Choice",
+        "Assembled & Picked by Hand",
+        "Each  bouquet could have  1 to 30 stems of main flowers",
         "Complimentary refreshments",
-        "Adequate safety/security",
-        "Internet",
-        "Comfortable beds"
+        "The stems are 12 - 18 inch long"
       ],
       images: [
         {
@@ -138,7 +135,7 @@ export default [
       name: "single standard",
       slug: "single-standard",
       type: "single",
-      price: 250,
+      price: 550,
       size: 300,
       capacity: 1,
       pets: true,
@@ -147,13 +144,13 @@ export default [
       description:
         " Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
       extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
-        "Adequate safety/security",
-        "Internet",
-        "Comfortable beds"
+        "1 bouquet with 25 stems",
+        "Color: White, pink, green",
+        "Assembled & Picked by Hand",
+        "Vase Life: 5 - 10 Days",
+        "Time to Bloom: 1-2 days",
+        "25 Flowers per Bridal Bouquet",
+        "Diameter when bloomed: 3.5 - 4.8 inch"
       ],
       images: [
         {
@@ -195,7 +192,7 @@ export default [
       name: "single deluxe",
       slug: "single-deluxe",
       type: "single",
-      price: 300,
+      price: 330,
       size: 400,
       capacity: 1,
       pets: true,
@@ -252,7 +249,7 @@ export default [
       name: "double economy",
       slug: "double-economy",
       type: "double",
-      price: 200,
+      price: 570,
       size: 300,
       capacity: 2,
       pets: false,
@@ -309,7 +306,7 @@ export default [
       name: "double basic",
       slug: "double-basic",
       type: "double",
-      price: 250,
+      price: 530,
       size: 350,
       capacity: 2,
       pets: false,
@@ -366,7 +363,7 @@ export default [
       name: "double standard",
       slug: "double-standard",
       type: "double",
-      price: 300,
+      price: 470,
       size: 400,
       capacity: 2,
       pets: true,
@@ -477,10 +474,10 @@ export default [
       id: "9"
     },
     fields: {
-      name: "family economy",
+      name: "Lady cotton",
       slug: "family-economy",
       type: "family",
-      price: 300,
+      price: 320,
       size: 500,
       capacity: 3,
       pets: false,
@@ -534,7 +531,7 @@ export default [
       id: "10"
     },
     fields: {
-      name: "family basic",
+      name: "little petunia",
       slug: "family-basic",
       type: "family",
       price: 350,
@@ -594,7 +591,7 @@ export default [
       name: "family standard",
       slug: "family-standard",
       type: "family",
-      price: 400,
+      price: 410,
       size: 600,
       capacity: 5,
       pets: true,
@@ -651,7 +648,7 @@ export default [
       name: "family deluxe",
       slug: "family-deluxe",
       type: "family",
-      price: 500,
+      price: 1150,
       size: 700,
       capacity: 6,
       pets: true,

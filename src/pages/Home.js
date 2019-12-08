@@ -1,9 +1,8 @@
 import React from "react";
 import Hero from "../components/Hero";
 import Banner from "../components/Banner";
-import Order from "../components/Order";
 import Footer from "../components/Footer";
-
+import Order from "../components/Order";
 import { Link } from "react-router-dom";
 import "../App.css";
 
@@ -25,6 +24,7 @@ const Home = () => {
       <Services />
       <FeatureRooms />
 
+      <Order />
       <Footer />
     </React.Fragment>
   );

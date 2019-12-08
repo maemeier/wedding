@@ -19,7 +19,7 @@
 
   --mainTransition: all 0.3s linear;
   --mainSpacing: 3px;
-  --lightShadow: 1px 2px 7px 0px rgba(0, 0, 0, 0.5);
+  --lightShadow: 1px 1px 8px 0px rgba(0, 0, 0, 0.5);
   --darkShadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.5);
 }
 /* globals */
@@ -44,6 +44,9 @@ h3 {
   line-height: 1;
   margin-bottom: 1em;
 }
+.details {
+  color: #6c614e;
+}
 h4 {
   font-size: 1.2em;
   line-height: 1.25;
@@ -66,8 +69,7 @@ h6 {
   margin-bottom: 50px;
 }
 .bride {
-  height: 100px;
-  margin-left: 17%;
+  height: 450px;
 }
 .questionText {
   margin-right: 30%;
@@ -215,7 +217,7 @@ h6 {
 .footer {
   font-size: 1rem;
   height: 80px;
-
+  margin-top: 80px;
   text-align: center;
   background-color: var(--mainBlack);
   color: white;
@@ -287,6 +289,26 @@ h6 {
 .services p {
   width: 80%;
   margin: 0 auto;
+}
+.extra {
+  text-align: center;
+}
+.packageText {
+  width: 400px;
+  align-items: center;
+  margin-left: 120px;
+  margin-right: 80px;
+  padding-top: 50px;
+  text-align: center;
+}
+.packageButton {
+  background: var(--pink);
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  border: none;
+  color: white;
+  margin-top: 50px;
 }
 @media screen and (min-width: 992px) {
   .services-center {
@@ -442,10 +464,15 @@ h6 {
 .room-extras {
   width: 80vw;
   margin: 0 auto 3rem auto;
+  background: var(--pink);
+  padding: 20px 10px 20px 20px;
+  border-radius: 5px;
+  color: white;
 }
 .room-extras h6 {
   text-transform: capitalize;
   letter-spacing: var(--mainSpacing);
+  color: white;
 }
 .extras {
   list-style-type: none;
