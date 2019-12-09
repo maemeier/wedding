@@ -12,8 +12,11 @@ const ListPackage = () => {
         <div>
           <img src={bride1} alt="bride" className="bride" />
         </div>
-        <div>
-          <p className="packages">
+        <div className="packagesGap">
+          <h3 className="packages-title">
+            Symbolic elopement basic package for the couple{" "}
+          </h3>
+          <p className="packageDescription">
             This beautiful and elegant white bridal bouquet has 25 stems of
             roses, gerberas, carnations, fillers, whips of lily grass and
             ruscus. The bridal bouquet is 18"" long. The stems are wrapped with
@@ -27,21 +30,21 @@ const ListPackage = () => {
           </p>
           <ul>
             <li>Signature creamy wedding cake</li>
-            <li>
-              location rental fee, included wooden arch with white curtains{" "}
-            </li>
             <li>bridal bouquet</li>
             <li>wedding planning and organization</li>
             <li>Elegant Wedding Invitations</li>
             <li>possible for up to 10 guests</li>
-            <li>Flowers for the dinner table(basic decor)s</li>
+            <li>Flowers for the dinner table(basic decor)</li>
           </ul>
         </div>
       </div>
 
       <div className="packages-center">
         <div>
-          <p className="packages">
+          <h3 className="packages-title">
+            Signature full package for the couple{" "}
+          </h3>
+          <p className="packageDescription">
             This beautiful and elegant white bridal bouquet has 25 stems of
             roses, gerberas, carnations, fillers, whips of lily grass and
             ruscus. The bridal bouquet is 18"" long. The stems are wrapped with

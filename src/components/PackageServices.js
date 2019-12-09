@@ -13,7 +13,7 @@ class Services extends Component {
         icon: <MdStore />,
         title: "SIGNATURE CAKE",
         info:
-          "You send us a photo of a floral piece you love or visit us in store, we will create a custom quote within 1 day, and of course free of charge."
+          "Our signature cake orde create a custom quote within 1 day, and of course free of charge."
       },
       {
         icon: <GiFlowerPot />,
