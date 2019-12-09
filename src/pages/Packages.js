@@ -2,6 +2,7 @@ import React from "react";
 import Hero from "../components/Hero";
 import Banner from "../components/Banner";
 import Footer from "../components/Footer";
+import ListPackage from "../components/ListPackage";
 
 import { Link } from "react-router-dom";
 
@@ -15,6 +16,7 @@ const Packages = () => {
           </Link>
         </Banner>
       </Hero>
+      <ListPackage />
       <Footer />
     </div>
   );
