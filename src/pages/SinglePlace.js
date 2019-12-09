@@ -1,6 +1,5 @@
 import React from "react";
 import defaultBcg from "../images/room-1.jpeg";
-import Hero from "../components/Hero";
 import Banner from "../components/Banner";
 import StyledHero from "../components/StyledHero";
 import Footer from "../components/Footer";
@@ -44,8 +43,7 @@ class SinglePlace extends React.Component {
     const {
       name,
       description,
-      capacity,
-      size,
+
       price,
       extras,
       breakfast,

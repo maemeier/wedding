@@ -11,9 +11,7 @@ class RoomProvider extends Component {
     type: "all",
     price: 0,
     minPrice: 0,
-    maxPrice: 0,
-    breakfast: false,
-    pets: false
+    maxPrice: 0
   };
 
   // getData
@@ -63,15 +61,7 @@ class RoomProvider extends Component {
   };
 
   filterFlowers = () => {
-    let {
-      rooms,
-      type,
-      price,
-      minPrice,
-      maxPrice,
-      breakfast,
-      pets
-    } = this.state;
+    let { rooms, type, price, minPrice, maxPrice } = this.state;
 
     let tempRooms = [...rooms];
     if (type !== "all") {

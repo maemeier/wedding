@@ -8,8 +8,6 @@ import "../App.css";
 
 import Services from "../components/Services";
 import FeatureRooms from "../components/FeatureRooms";
-import Button from "../components/StyledHero";
-import Allrooms from "../components/Allrooms";
 
 const Home = () => {
   return (

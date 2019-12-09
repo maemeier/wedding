@@ -1,8 +1,7 @@
 import React from "react";
 import bride from "../images/bride.jpg";
-import Allrooms from "../components/FeatureRooms";
 import Title from "../components/Title";
-import { Link } from "react-router-dom";
+
 const Order = () => {
   return (
     <>
@@ -26,12 +25,6 @@ const Order = () => {
             with a keen eye for detail, requiring a perfectly planned and
             flawlessly executed wedding, with expert assistance on-hand
           </p>
-
-          <Link to="/">
-            <button renderAs="button" className="packageButton">
-              <span>Packages</span>
-            </button>
-          </Link>
         </div>
       </div>
     </>

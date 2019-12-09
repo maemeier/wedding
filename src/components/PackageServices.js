@@ -1,8 +1,6 @@
 import React, { Component } from "react";
-import { FaCocktail, FaMitten } from "react-icons/fa";
 import { GiFlowerPot } from "react-icons/gi";
 import { GiFlowers } from "react-icons/gi";
-import { MdRoomService } from "react-icons/md";
 import { MdStore } from "react-icons/md";
 import Titel from "./Title";
 

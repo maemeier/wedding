@@ -2,6 +2,7 @@ import React from "react";
 import Hero from "../components/Hero";
 import Banner from "../components/Banner";
 import Footer from "../components/Footer";
+import Services from "../components/Services";
 
 import { Link } from "react-router-dom";
 import FlowerContainer from "../components/FlowerContainer";
@@ -17,6 +18,7 @@ const Places = () => {
           </Banner>
         </Hero>
         <FlowerContainer />
+        <Services />
         <Footer />
       </div>
     </>

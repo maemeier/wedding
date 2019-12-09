@@ -10,15 +10,7 @@ const getUnique = (items, value) => {
 };
 const FlowerFilter = ({ rooms }) => {
   const context = useContext(RoomContext);
-  const {
-    handleChange,
-    type,
-    price,
-    minPrice,
-    maxPrice,
-    breakfast,
-    pets
-  } = context;
+  const { handleChange, type, price, minPrice, maxPrice } = context;
 
   // get Unique type
   let types = getUnique(rooms, "type");
