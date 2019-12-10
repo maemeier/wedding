@@ -8,7 +8,7 @@ const ShowCase = () => {
       <div className="showCaseImg">
         <img src={cake} alt="bride" className="showCaseImg" />
       </div>
-      <div>
+      <div className="showCaseBox">
         <p className="showCaseText">
           This beautiful and elegant white bridal bouquet has 25 stems of roses,
           gerberas, carnations, fillers, whips of lily grass and ruscus. The
